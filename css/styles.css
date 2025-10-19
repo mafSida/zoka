@@ -1,8 +1,4 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  color: #1a093c;
-}
+/* ---------RESET--------- */
 
 h1,
 h2,
@@ -45,4 +41,191 @@ img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+/* -------GLOBAL---------- */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #1a093c;
+}
+
+.contact-btn {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.25;
+}
+/* last two h2 are different */
+
+.transp {
+  color: rgba(26, 9, 60, 0.8);
+}
+
+/* ----------HEADER--------- */
+
+.header {
+}
+.nav {
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: -0.1em;
+  color: #000;
+}
+.menu-list {
+}
+.menu-item {
+}
+.menu-list-link {
+  font-weight: 600;
+  font-size: 20px;
+  color: #787282;
+}
+.youtube-link {
+  font-weight: 600;
+  font-size: 18px;
+  color: #3f41a6;
+}
+
+/* ---------HERO------- */
+
+.hero {
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.25;
+}
+.hero-description {
+  font-size: 18px;
+}
+
+.hero-img {
+}
+
+/* --------GET TO KNOW US------- */
+
+.know {
+}
+.know-img {
+}
+.know-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  color: #3f41a6;
+}
+.know-title {
+}
+.know-text {
+}
+
+/* ---WHY CHOOSE US--- */
+
+.choose {
+}
+.choose-title {
+}
+.choose-list {
+}
+.choose-item {
+}
+.choose-svg {
+}
+.choose-list-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.choose-list-text {
+  text-align: center;
+}
+
+/* ---EXPERIMENTS AND PERSONAL PROJECTS--- */
+
+.projects {
+}
+.ptojects-img {
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.25;
+}
+.projects-text {
+}
+.projects-list {
+}
+.projects-item {
+}
+.projects-list-number {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.25;
+}
+.project-list-text {
+}
+.design {
+}
+.design-title {
+}
+.section-text {
+}
+.gallery {
+}
+
+/* ---OUR AWESOME WORKS--- */
+
+.works {
+}
+.works-title {
+  font-weight: 600;
+  font-size: 60px;
+}
+.works-text {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.75);
+}
+.works-list {
+}
+.works-item {
+}
+.works-img {
+}
+
+/* ---GET STARTED WITH US--- */
+
+.started {
+  background: #431898;
+  border-radius: 100px;
+}
+.started-title {
+  font-weight: 600;
+  font-size: 64px;
+  color: #ffffff;
+}
+.started-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+.started-img {
+}
+
+/* ---FOOTER--- */
+
+.footer {
+}
+.footer-text {
+  font-weight: 600;
+  font-size: 20px;
+  color: #3c3842;
+}
+
+.footer .menu-list-link {
+  color: #3c3842;
 }
