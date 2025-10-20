@@ -50,6 +50,18 @@ body {
   color: #1a093c;
 }
 
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1148px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
 .contact-btn {
   font-weight: 500;
   font-size: 20px;
@@ -70,6 +82,8 @@ h2 {
 /* ----------HEADER--------- */
 
 .header {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 .nav {
 }
@@ -182,6 +196,7 @@ h2 {
 /* ---OUR AWESOME WORKS--- */
 
 .works {
+  padding-bottom: 95px;
 }
 .works-title {
   font-weight: 600;
@@ -201,6 +216,7 @@ h2 {
 /* ---GET STARTED WITH US--- */
 
 .started {
+  padding-top: 80px;
   background: #431898;
   border-radius: 100px;
 }
@@ -218,6 +234,7 @@ h2 {
 /* ---FOOTER--- */
 
 .footer {
+  padding-top: 50px;
 }
 .footer-text {
   font-weight: 600;
