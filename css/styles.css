@@ -21,6 +21,7 @@ a {
   text-decoration: none;
   font-style: normal;
   color: currentColor;
+  display: inline-block;
 }
 
 button {
@@ -85,7 +86,16 @@ h2 {
   padding-top: 20px;
   padding-bottom: 50px;
 }
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   text-transform: uppercase;
@@ -94,6 +104,10 @@ h2 {
   color: #000;
 }
 .menu-list {
+  display: flex;
+  align-items: center;
+  margin-left: 260px;
+  column-gap: 40px;
 }
 .menu-item {
 }
@@ -101,11 +115,49 @@ h2 {
   font-weight: 600;
   font-size: 20px;
   color: #787282;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
+.menu-list-link:hover,
+.menu-list-link:focus {
+  color: rgba(26, 9, 60, 0.8);
+}
+
+.menu-list-link:focus {
+  color: #1a093c;
+}
+
 .youtube-link {
   font-weight: 600;
   font-size: 18px;
   color: #3f41a6;
+  border: 2px solid #3f41a6;
+  border-radius: 22px;
+  width: 145px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  padding-left: 21px;
+  position: relative;
+}
+
+.youtube-link::after {
+  content: '';
+  position: absolute;
+  inset: -11px 0 -12px;
+  background: transparent;
+}
+
+.youtube-link:hover,
+.youtube-link:focus {
+  color: #fff;
+  background-color: #3f41a6;
+}
+
+.youtube-link:active {
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 
 /* ---------HERO------- */
